@@ -1,0 +1,13 @@
+2021-07-23T02:53:53.289Z ACTOR: Pulling Docker image from repository.
+2021-07-23T02:53:56.643Z ACTOR: Creating Docker container.
+2021-07-23T02:53:56.811Z ACTOR: Starting Docker container.
+2021-07-23T02:53:58.940Z INFO  System info {"apifyVersion":"1.3.0","apifyClientVersion":"1.2.6","osType":"Linux","nodeVersion":"v12.18.4"}
+2021-07-23T02:53:58.945Z INFO  PHASE -- STARTING ACTOR. {}
+2021-07-23T02:53:59.045Z INFO  ACTOR OPTIONS: --  {"startUrls":[{"url":"https://www.aliexpress.com/item/32940810951.html"}],"language":"en_US","shipTo":"AF","currency":"USD","includeDescription":false,"searchInSubcategories":true,"proxy":{"useApifyProxy":true},"extendOutputFunction":"($) => { return {} }","maxItems":1000,"maxFeedbacks":0,"maxQuestions":0}
+2021-07-23T02:54:01.534Z INFO  PHASE -- SETTING UP CRAWLER. {}
+2021-07-23T02:54:01.537Z INFO  PHASE -- STARTING CRAWLER. {}
+2021-07-23T02:54:01.598Z INFO  CheerioCrawler:AutoscaledPool: state {"currentConcurrency":0,"desiredConcurrency":2,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":null},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.7,"actualRatio":null},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":null},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":null}}}
+2021-07-23T02:54:11.829Z INFO  CRAWLER -- Fetching product: 32940810951 {}
+2021-07-23T02:54:12.037Z INFO  CheerioCrawler: All the requests from request list and/or request queue have been processed, the crawler will shut down. {}
+2021-07-23T02:54:12.186Z INFO  CheerioCrawler: Final request statistics: {"requestsFinished":1,"requestsFailed":0,"retryHistogram":[1],"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":10226,"requestsFinishedPerMinute":6,"requestsFailedPerMinute":0,"requestTotalDurationMillis":10226,"requestsTotal":1,"crawlerRuntimeMillis":10650}
+2021-07-23T02:54:12.189Z INFO  PHASE -- ACTOR FINISHED. {}

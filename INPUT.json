@@ -1,0 +1,1 @@
+{"startUrls":[{"url":"https://www.aliexpress.com/item/32940810951.html"}],"language":"en_US","shipTo":"AF","currency":"USD","includeDescription":false,"searchInSubcategories":true,"proxy":{"useApifyProxy":true},"extendOutputFunction":"($) => { return {} }","maxItems":1000,"maxFeedbacks":0,"maxQuestions":0}
